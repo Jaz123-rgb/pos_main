@@ -28,7 +28,7 @@ class ControladorProductos{
 			   preg_match('/^[0-9]+$/', $_POST["nuevoStock"]) &&	
 			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioCompra"]) &&
 			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioVenta"])&&
-			   preg_match('/^[0-9.]+$/', $_POST["nuevaUbicaciion"])){
+			   preg_match('/^[0-9.]+$/', $_POST["nuevaUbicacion"])){
 
 		   		/*=============================================
 				VALIDAR IMAGEN
@@ -100,13 +100,13 @@ class ControladorProductos{
 				$tabla = "productos";
 
 				$datos = array("id_categoria" => $_POST["nuevaCategoria"],
+				               "ubicacion" => $_POST["nuevaUbicacion"],
 							   "codigo" => $_POST["nuevoCodigo"],
 							   "descripcion" => $_POST["nuevaDescripcion"],
 							   "stock" => $_POST["nuevoStock"],
 							   "precio_compra" => $_POST["nuevoPrecioCompra"],
 							   "precio_venta" => $_POST["nuevoPrecioVenta"],
-							   "imagen" => $ruta,
-							   "ubicacion" => $_POST["nuevaUbicacion"]);
+							   "imagen" => $ruta);
 
 				$respuesta = ModeloProductos::mdlIngresarProducto($tabla, $datos);
 
@@ -166,7 +166,8 @@ class ControladorProductos{
 			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarDescripcion"]) &&
 			   preg_match('/^[0-9]+$/', $_POST["editarStock"]) &&	
 			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioCompra"]) &&
-			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioVenta"])){
+			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioVenta"]) &&
+			   preg_match('/^[0-9.]+$/', $_POST["editarUbicacion"])){
 
 		   		/*=============================================
 				VALIDAR IMAGEN
@@ -250,13 +251,12 @@ class ControladorProductos{
 				$tabla = "productos";
 
 				$datos = array("id_categoria" => $_POST["editarCategoria"],
+				               "ubiacion" => $_POST["editarubicacion"],
 							   "codigo" => $_POST["editarCodigo"],
-							   "ubicacion" => $_POST["editarUbicacion"],
 							   "descripcion" => $_POST["editarDescripcion"],
 							   "stock" => $_POST["editarStock"],
 							   "precio_compra" => $_POST["editarPrecioCompra"],
 							   "precio_venta" => $_POST["editarPrecioVenta"],
-
 							   "imagen" => $ruta);
 
 				$respuesta = ModeloProductos::mdlEditarProducto($tabla, $datos);

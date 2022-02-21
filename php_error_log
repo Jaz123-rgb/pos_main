@@ -119,3 +119,8 @@ Stack trace:
 [21-Feb-2022 22:47:51 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
 [21-Feb-2022 22:59:37 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
 [21-Feb-2022 23:07:19 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 23:36:05 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 23:39:55 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 23:43:12 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 23:45:22 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicacion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 23:47:35 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicacion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
