@@ -116,3 +116,6 @@ Stack trace:
 #6 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
 #7 {main}
   thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
+[21-Feb-2022 22:47:51 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 22:59:37 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 23:07:19 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31

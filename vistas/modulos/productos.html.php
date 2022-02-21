@@ -49,8 +49,9 @@
            <th>Precio de compra</th>
            <th>Precio de venta</th>
            <th>Agregado</th>
-           <th>Acciones</th>
            <th>ubicacion</th>
+           <th>Acciones</th>
+           
 
          </tr> 
 
