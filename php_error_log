@@ -99,3 +99,20 @@ Stack trace:
 [17-Feb-2022 21:39:09 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicacion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 108
 [17-Feb-2022 21:48:52 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
 [21-Feb-2022 22:11:04 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 22:27:04 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 22:27:37 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 22:32:01 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 22:36:44 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
+[21-Feb-2022 16:39:21 America/Bogota] PHP Warning:  preg_match(): Compilation failed: invalid range in character class at offset 29 in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 126
+[21-Feb-2022 16:39:22 America/Bogota] PHP Warning:  copy(\\ZepMart\epson20): Failed to open stream: No such file or directory in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 372
+[21-Feb-2022 16:39:22 America/Bogota] PHP Fatal error:  Uncaught Exception: Failed to copy file to printer in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php:291
+Stack trace:
+#0 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php(173): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalizeWin('\e@\ea\x012022-02-21...')
+#1 C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\Printer.php(503): Mike42\Escpos\PrintConnectors\WindowsPrintConnector->finalize()
+#2 C:\xampp\htdocs\pos\controladores\ventas.controlador.php(209): Mike42\Escpos\Printer->close()
+#3 C:\xampp\htdocs\pos\vistas\modulos\crear-venta.php(288): ControladorVentas::ctrCrearVenta()
+#4 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in C:\xampp\htdocs\pos\extensiones\vendor\mike42\escpos-php\src\Mike42\Escpos\PrintConnectors\WindowsPrintConnector.php on line 291
