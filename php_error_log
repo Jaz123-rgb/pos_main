@@ -1,0 +1,100 @@
+[15-Feb-2022 21:16:17 Europe/Berlin] PHP Warning:  unlink(vistas/img/productos/ghjgjh/292.jpg): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 317
+[15-Feb-2022 21:16:17 Europe/Berlin] PHP Warning:  rmdir(vistas/img/productos/ghjgjh): No such file or directory in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 318
+[15-Feb-2022 21:17:22 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[15-Feb-2022 21:27:28 Europe/Berlin] PHP Warning:  Undefined array key "idCategorias" in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 155
+[15-Feb-2022 21:27:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_categorias' in 'where clause' in C:\xampp\htdocs\pos\modelos\productos.modelo.php:19
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(19): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\categorias.controlador.php(155): ModeloProductos::mdlMostrarProductos('productos', 'id_categorias', NULL, 'ASC')
+#2 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 19
+[15-Feb-2022 21:27:42 Europe/Berlin] PHP Warning:  Undefined array key "idCategorias" in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 155
+[15-Feb-2022 21:27:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_categorias' in 'where clause' in C:\xampp\htdocs\pos\modelos\productos.modelo.php:19
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(19): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\categorias.controlador.php(155): ModeloProductos::mdlMostrarProductos('productos', 'id_categorias', NULL, 'ASC')
+#2 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 19
+[15-Feb-2022 21:27:43 Europe/Berlin] PHP Warning:  Undefined array key "idCategorias" in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 155
+[15-Feb-2022 21:27:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_categorias' in 'where clause' in C:\xampp\htdocs\pos\modelos\productos.modelo.php:19
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(19): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\categorias.controlador.php(155): ModeloProductos::mdlMostrarProductos('productos', 'id_categorias', NULL, 'ASC')
+#2 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 19
+[15-Feb-2022 21:28:10 Europe/Berlin] PHP Warning:  Undefined array key "idCategorias" in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 155
+[15-Feb-2022 21:28:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_categorias' in 'where clause' in C:\xampp\htdocs\pos\modelos\productos.modelo.php:19
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(19): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\categorias.controlador.php(155): ModeloProductos::mdlMostrarProductos('productos', 'id_categorias', NULL, 'ASC')
+#2 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 19
+[15-Feb-2022 21:28:29 Europe/Berlin] PHP Warning:  Undefined array key "idCategorias" in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 155
+[15-Feb-2022 21:28:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_categorias' in 'where clause' in C:\xampp\htdocs\pos\modelos\productos.modelo.php:19
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(19): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\categorias.controlador.php(155): ModeloProductos::mdlMostrarProductos('productos', 'id_categorias', NULL, 'ASC')
+#2 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 19
+[15-Feb-2022 21:28:39 Europe/Berlin] PHP Warning:  Undefined array key "idCategorias" in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 155
+[15-Feb-2022 21:28:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_categorias' in 'where clause' in C:\xampp\htdocs\pos\modelos\productos.modelo.php:19
+Stack trace:
+#0 C:\xampp\htdocs\pos\modelos\productos.modelo.php(19): PDOStatement->execute()
+#1 C:\xampp\htdocs\pos\controladores\categorias.controlador.php(155): ModeloProductos::mdlMostrarProductos('productos', 'id_categorias', NULL, 'ASC')
+#2 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#3 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\pos\modelos\productos.modelo.php on line 19
+[16-Feb-2022 22:43:33 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 117 in C:\xampp\htdocs\pos\vistas\plantilla.php on line 183
+[16-Feb-2022 22:44:35 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 117 in C:\xampp\htdocs\pos\vistas\plantilla.php on line 183
+[17-Feb-2022 21:22:50 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(312): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[17-Feb-2022 21:24:24 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(312): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[17-Feb-2022 21:30:46 Europe/Berlin] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\xampp\htdocs\pos\controladores\productos.controlador.php:40
+Stack trace:
+#0 C:\xampp\htdocs\pos\controladores\productos.controlador.php(40): getimagesize('')
+#1 C:\xampp\htdocs\pos\vistas\modulos\productos.php(312): ControladorProductos::ctrCrearProducto()
+#2 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\pos\index.php(22): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 40
+[17-Feb-2022 21:39:09 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicacion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 108
+[17-Feb-2022 21:48:52 Europe/Berlin] PHP Warning:  Undefined array key "nuevaUbicaciion" in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 31
