@@ -102,7 +102,7 @@ if($xml){
            <th>Total</th> 
            <th>Fecha</th>
            <th>Acciones</th>
-           <th>ubicacion</th>
+           
 
          </tr> 
 

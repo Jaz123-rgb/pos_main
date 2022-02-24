@@ -28,7 +28,7 @@ class ControladorProductos{
 			   preg_match('/^[0-9]+$/', $_POST["nuevoStock"]) &&	
 			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioCompra"]) &&
 			   preg_match('/^[0-9.]+$/', $_POST["nuevoPrecioVenta"])&&
-			   preg_match('/^[0-9.]+$/', $_POST["nuevaUbicacion"])){
+			   preg_match('/^[0-9.]+$/', $_POST["nuevaubicacion"])){
 
 		   		/*=============================================
 				VALIDAR IMAGEN
@@ -100,7 +100,7 @@ class ControladorProductos{
 				$tabla = "productos";
 
 				$datos = array("id_categoria" => $_POST["nuevaCategoria"],
-				               "ubicacion" => $_POST["nuevaUbicacion"],
+				               "ubicacion" => $_POST["nuevaubicacion"],
 							   "codigo" => $_POST["nuevoCodigo"],
 							   "descripcion" => $_POST["nuevaDescripcion"],
 							   "stock" => $_POST["nuevoStock"],
