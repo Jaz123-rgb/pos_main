@@ -125,6 +125,8 @@ class ControladorVentas{
 			$respuesta = ModeloVentas::mdlIngresarVenta($tabla, $datos);
 
 			if($respuesta == "ok"){
+				
+				if (isset($_POST["impresion"])) {
 
 				// $impresora = "epson20";
 
@@ -207,6 +209,8 @@ class ControladorVentas{
 				$printer -> pulse(); //Por medio de la impresora mandamos un pulso, es útil cuando hay cajón moneder
 
 				$printer -> close();
+
+			}
 
 	
 				echo'<script>

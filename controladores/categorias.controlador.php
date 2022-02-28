@@ -154,10 +154,7 @@ class ControladorCategorias{
 			
 			$respuesta = ModeLoProductos::mdlMostrarProductos("productos", "id_categoria", $_GET["idCategoria"], "ASC"); 
 			
-			if(count($respuesta) ==  0){
-
-
-			
+			if(!$respuesta){
 			
 			$tabla ="Categorias";
 			$datos = $_GET["idCategoria"];

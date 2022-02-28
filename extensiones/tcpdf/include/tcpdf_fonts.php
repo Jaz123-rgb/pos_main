@@ -1499,6 +1499,8 @@ class TCPDF_FONTS {
 	 * @public static
 	 */
 	public static function unichr($c, $unicode=true) {
+		if(is_numeric($c)){ 
+
 		if (!$unicode) {
 			return chr($c);
 		} elseif ($c <= 0x7F) {
@@ -1517,6 +1519,8 @@ class TCPDF_FONTS {
 			return '';
 		}
 	}
+	
+}
 
 	/**
 	 * Returns the unicode caracter specified by UTF-8 value
