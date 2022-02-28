@@ -169,7 +169,8 @@ class ControladorProductos{
 			   preg_match('/^[0-9]+$/', $_POST["editarStock"]) &&	
 			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioCompra"]) &&
 			   preg_match('/^[0-9.]+$/', $_POST["editarPrecioVenta"]) &&
-			   preg_match('/^[0-9.]+$/', $_POST["editarUbicacion"])){
+			   preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarUbicacion"])
+			   ){
 
 		   		/*=============================================
 				VALIDAR IMAGEN
@@ -259,6 +260,7 @@ class ControladorProductos{
 							   "stock" => $_POST["editarStock"],
 							   "precio_compra" => $_POST["editarPrecioCompra"],
 							   "precio_venta" => $_POST["editarPrecioVenta"],
+							   "ubicacion" => $_POST["editarUbicacion"],
 							   "imagen" => $ruta);
 
 				$respuesta = ModeloProductos::mdlEditarProducto($tabla, $datos);

@@ -371,6 +371,19 @@ MODAL EDITAR PRODUCTO
 
             </div>
 
+            <!-- Entrada para la ubicacion -->
+            <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
+
+                <input type="text" class="form-control input-lg" id="editarUbicacion" name="editarUbicacion"required>
+
+              </div>
+
+            </div>
+
             <!-- ENTRADA PARA EL CÓDIGO -->
             
             <div class="form-group">
