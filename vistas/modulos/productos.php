@@ -158,7 +158,7 @@ MODAL AGREGAR PRODUCTO
               
                 <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
 
-                <input type="text" class="form-control input-lg" name="NuevaUbicacion" placeholder="Ingresar ubicacion " required>
+                <input type="text" class="form-control input-lg" name="nuevaUbicacion" placeholder="Ingresar ubicacion " required>
 
               </div>
 
@@ -224,7 +224,7 @@ MODAL AGREGAR PRODUCTO
 
                 <!-- ENTRADA PARA PRECIO VENTA -->
 
-                <div class="col-xs-6">
+                <div class="col-xs-6"> 
                 
                   <div class="input-group">
                   
